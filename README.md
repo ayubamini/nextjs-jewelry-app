@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AURUM Luxury Jewelry Website
 
-## Getting Started
+A stunning, interactive luxury jewelry e-commerce website built with React, featuring elegant animations and a sophisticated appointment booking system.
 
-First, run the development server:
+![image](https://github.com/user-attachments/assets/06c3cab5-4e6b-4e05-b7fe-7ce840f5c8d3)
 
+
+## ✨ Features
+
+### Elegant UI/UX
+- Responsive design optimized for all devices
+- Smooth animations and transitions using Framer Motion
+- Custom cursor effects that enhance the luxury feel
+- Parallax scrolling and subtle micro-interactions
+
+### Product Showcase
+- Featured carousel with auto-advancing slides
+- Product gallery with category filtering
+- Detailed product modal with image gallery
+- Animated testimonial section
+
+### Appointment Booking System
+- Multi-step booking form with elegant transitions
+- Date and time selection with availability management
+- Location and consultation type options
+- Confirmation system with success animations
+- Floating appointment button that appears on scroll
+
+## 🛠️ Technologies Used
+
+- **React** - Frontend library
+- **TypeScript** - Type safety
+- **Framer Motion** - Animation library
+- **Tailwind CSS** - Styling
+- **React Icons** - Icon components
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v16+)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/aurum-jewelry.git
+cd aurum-jewelry
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── components/
+│   ├── Navigation.tsx         # Main navigation
+│   ├── ProductDetail.tsx      # Product detail modal
+│   ├── AppointmentForm.tsx    # Booking appointment form
+│   ├── CollectionGallery.tsx  # Product gallery with filtering
+│   └── ...
+├── data/
+│   └── products.ts            # Mock product data
+├── styles/
+│   └── globals.css            # Global styles
+└── pages/
+    └── index.tsx              # Main page component
+```
 
-## Learn More
+## 📝 Appointment Booking System
 
-To learn more about Next.js, take a look at the following resources:
+The appointment booking system allows customers to schedule private viewings of jewelry pieces:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Book from navigation, product details, or floating button
+- Pre-fills product information when booking from product detail pages
+- Two-step form process with elegant transitions
+- Animated confirmation for successful bookings
+- Form validation with visual feedback
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔧 Customization
 
-## Deploy on Vercel
+The website is designed for easy customization:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Update color scheme in the Tailwind config
+- Replace mock data with your actual products
+- Modify available time slots and consultation types 
+- Add or remove gallery categories
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Responsive Design
+
+The site is fully responsive across all device sizes:
+- Mobile-first approach
+- Tailored layouts for tablets and desktops
+- Optimized animations for different screen sizes
+
+## 🚀 Deployment
+
+Deploy on Vercel, Netlify, or AWS Amplify. Vercel is recommended for the easiest setup with Next.js.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+Created by [Your Name]
